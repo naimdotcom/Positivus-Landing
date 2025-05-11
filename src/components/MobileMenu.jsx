@@ -8,7 +8,7 @@ export default function MobileMenu({ navbarItems }) {
   return (
     <>
       <button
-        className="lg:hidden visible focus:outline-none"
+        className="lg:hidden flex focus:outline-none"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
         aria-label="Toggle menu"
       >
@@ -38,19 +38,18 @@ export default function MobileMenu({ navbarItems }) {
       </button>
 
       {isMenuOpen && (
-        <div className="lg:hidden fixed inset-0 bg-white z-50 mt-16 p-4 overflow-y-auto">
+        <div className="lg:hidden fixed  inset-0 top-20 bg-primary z-50  p-4 overflow-y-auto mx-4 border border-primary rounded-4xl h-fit drop-shadow-[0_5px_0px_rgba(0,0,0,1)]">
           <div className="flex flex-col space-y-4">
             {navbarItems.map((item) => (
-              <a
+              <p
                 key={item.name}
-                href={item.href}
-                className="block px-4 py-3 text-lg font-space-grotesk hover:bg-gray-100 rounded transition-colors duration-200"
+                className="block px-4 py-3 text-lg font-space-grotesk hover:bg-gray-100 rounded-lg transition-colors duration-200"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.name}
-              </a>
+              </p>
             ))}
-            <button className="w-full border py-3 px-6 rounded-lg text-lg font-space-grotesk hover:bg-primary hover:text-secondary border-secondary duration-300 ease-linear hover:border-tertiary mt-4">
+            <button className="w-full border py-3 px-6 rounded-lg text-lg font-space-grotesk  hover:text-secondary border-secondary duration-300 ease-linear  mt-4">
               Request a quote
             </button>
           </div>

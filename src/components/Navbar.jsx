@@ -11,7 +11,7 @@ function Navbar() {
             src="/positivus.png"
             width={250}
             height={60}
-            className="min-w-[250px] w-full h-full"
+            className="xl:min-w-[250px] w-full h-full"
             alt="Positivus Logo"
             priority
           />

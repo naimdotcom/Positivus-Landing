@@ -23,14 +23,14 @@ function Navbar() {
             {navbar.map((item) => (
               <p
                 key={item.name}
-                className="cursor-pointer text-p font-space-grotesk hover:text-primary transition-colors duration-200"
+                className="cursor-pointer text-h4 font-space-grotesk hover:text-primary transition-colors duration-200"
               >
                 {item.name}
               </p>
             ))}
           </div>
           <div>
-            <button className="border py-3 px-6 lg:py-4 lg:px-6 xl:py-5 xl:px-8 rounded-lg text-p font-space-grotesk hover:bg-primary hover:text-secondary border-secondary duration-300 ease-linear hover:border-tertiary">
+            <button className="border py-3 px-6 lg:py-4 lg:px-6 xl:py-5 xl:px-8 rounded-lg text-h4 font-space-grotesk hover:bg-primary hover:text-secondary border-secondary duration-300 ease-linear hover:border-tertiary">
               Request a quote
             </button>
           </div>

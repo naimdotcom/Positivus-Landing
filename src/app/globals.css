@@ -19,4 +19,31 @@ body {
   --color-primary: #b9ff66;
   --color-secondary: #191a23;
   --color-tertiary: #f3f3f3;
+  --animate-scroll: scroll 20s linear infinite;
+  --animate-reverse-scroll: scroll 15s linear reverse infinite;
+  @keyframes scroll {
+    from {
+      transform: translateX(100);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+}
+
+/* animation */
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }

@@ -14,7 +14,7 @@ function CompanyLogo() {
                 alt={item.alt}
                 width={100}
                 height={100}
-                className="min-w-[50px] md:min-w-[100px]"
+                className="min-w-[50px] md:min-w-[100px] grayscale"
               />
             </div>
           )

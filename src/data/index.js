@@ -28,32 +28,58 @@ const navbar = [
 import SEOImage from "@/assets/seo.png";
 import emailMarketingImage from "@/assets/email-marketing.png";
 import payPerClickImage from "@/assets/pay-per-click.png";
+import socialMediaImage from "@/assets/social-media-marketing.png";
+import contentCreationImage from "@/assets/content-creation.png";
+import analytics from "@/assets/analatics.png";
 
 const serviceData = [
   {
-    name: "Serch engine optimization",
+    title: "Serch engine ",
+    title2: "optimization",
     link: "#",
-    image: "",
+    image: SEOImage,
+    titleStyle: "bg-primary text-secondary",
+    bgStyle: "bg-tertiary",
   },
   {
-    name: "Social media marketing",
+    title: "Social Media ",
+    title2: "Marketing",
     link: "#",
+    image: socialMediaImage,
+    titleStyle: "bg-white text-secondary",
+    bgStyle: "bg-secondary",
   },
   {
-    name: "Pay-per-click advertising",
+    title: "Pay-per-click ",
+    title2: "advertising",
     link: "#",
+    image: payPerClickImage,
+    titleStyle: "bg-white text-secondary",
+    bgStyle: "bg-primary",
   },
   {
-    name: "Content Creation",
+    title: "Content",
+    title2: "Creation",
     link: "#",
+    image: contentCreationImage,
+    titleStyle: "bg-white text-secondary",
+    bgStyle: "bg-primary",
   },
   {
-    name: "Email marketing",
+    title: "Email ",
+    title2: "Marketing",
     link: "#",
+    image: emailMarketingImage,
+    titleStyle: "bg-primary text-secondary",
+    bgStyle: "bg-tertiary",
   },
   {
-    name: "Analytics & Tracking",
+    title: "Analytics &",
+    title2: "Tracking",
     link: "#",
+    image: analytics,
+    titleStyle: "bg-primary text-secondary",
+    bgStyle: "bg-secondary",
   },
 ];
 

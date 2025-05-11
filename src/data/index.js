@@ -31,6 +31,7 @@ import payPerClickImage from "@/assets/pay-per-click.png";
 import socialMediaImage from "@/assets/social-media-marketing.png";
 import contentCreationImage from "@/assets/content-creation.png";
 import analytics from "@/assets/analatics.png";
+import CTAImage from "@/assets/CTA.png";
 
 const serviceData = [
   {
@@ -38,16 +39,8 @@ const serviceData = [
     title2: "optimization",
     link: "#",
     image: SEOImage,
-    titleStyle: "bg-primary text-secondary",
+    titleStyle: "bg-primary text-secondary rotate-",
     bgStyle: "bg-tertiary",
-  },
-  {
-    title: "Social Media ",
-    title2: "Marketing",
-    link: "#",
-    image: socialMediaImage,
-    titleStyle: "bg-white text-secondary",
-    bgStyle: "bg-secondary",
   },
   {
     title: "Pay-per-click ",
@@ -58,12 +51,12 @@ const serviceData = [
     bgStyle: "bg-primary",
   },
   {
-    title: "Content",
-    title2: "Creation",
+    title: "Social Media ",
+    title2: "Marketing",
     link: "#",
-    image: contentCreationImage,
+    image: socialMediaImage,
     titleStyle: "bg-white text-secondary",
-    bgStyle: "bg-primary",
+    bgStyle: "bg-secondary",
   },
   {
     title: "Email ",
@@ -73,6 +66,15 @@ const serviceData = [
     titleStyle: "bg-primary text-secondary",
     bgStyle: "bg-tertiary",
   },
+  {
+    title: "Content",
+    title2: "Creation",
+    link: "#",
+    image: contentCreationImage,
+    titleStyle: "bg-white text-secondary",
+    bgStyle: "bg-primary",
+  },
+
   {
     title: "Analytics &",
     title2: "Tracking",
@@ -119,5 +121,6 @@ export {
   companyLogo4,
   companyLogo5,
   comapanyLogos,
+  CTAImage,
 };
 export { navbar, serviceData };

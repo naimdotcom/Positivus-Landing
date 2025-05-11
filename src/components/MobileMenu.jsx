@@ -38,7 +38,7 @@ export default function MobileMenu({ navbarItems }) {
       </button>
 
       {isMenuOpen && (
-        <div className="lg:hidden fixed  inset-0 top-20 bg-primary z-50  p-4 overflow-y-auto mx-4 border border-primary rounded-4xl h-fit drop-shadow-[0_5px_0px_rgba(0,0,0,1)]">
+        <div className="lg:hidden fixed tra inset-0 top-20 bg-primary z-50  p-4 overflow-y-auto mx-4 border border-primary rounded-4xl h-fit drop-shadow-[0_5px_0px_rgba(0,0,0,1)]">
           <div className="flex flex-col space-y-4">
             {navbarItems.map((item) => (
               <p

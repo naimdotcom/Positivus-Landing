@@ -46,7 +46,7 @@ A modern, responsive landing page built with **Next.js 15**, **React 19**, and *
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/positivus-landing.git
+git clone https://github.com/naimdotcom/Positivus-Landing.git
 cd positivus-landing
 
 2. Install dependencies
@@ -59,14 +59,6 @@ npm run dev
 ```
 
 Open http://localhost:3000 in your browser to see the result.
-
----
-
-📌 To-Do
-• Add form handling to CTA
-• Improve accessibility (ARIA roles)
-• Add unit tests
-• Add animation to sections on scroll
 
 ---
 

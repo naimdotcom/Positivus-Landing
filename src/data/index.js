@@ -26,6 +26,69 @@ const navbar = [
 ];
 
 import team1 from "@/assets/Team/team1.png";
+import team2 from "@/assets/Team/team2.png";
+import team3 from "@/assets/Team/team3.png";
+import team4 from "@/assets/Team/team4.png";
+import team5 from "@/assets/Team/team5.png";
+import team6 from "@/assets/Team/team6.png";
+import linkdin from "@/assets/Linkdin.svg";
+
+export const TeamData = [
+  {
+    name: "John Smith",
+    position: "CEO and Founder",
+    detail:
+      "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy",
+    image: team1,
+    icon: linkdin,
+    link: "",
+  },
+  {
+    name: "Jane Doe",
+    position: "Director of Operations",
+    detail:
+      "7+ years of experience in project management and team leadership. Strong organizational and communication skills",
+    image: team2,
+    icon: linkdin,
+    link: "",
+  },
+  {
+    name: "Michael Brown",
+    position: "Senior SEO Specialist",
+    detail:
+      "5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization",
+    image: team3,
+    icon: linkdin,
+    link: "",
+  },
+  {
+    name: "Emily Johnson",
+    position: "PPC Manager",
+    detail:
+      "3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis",
+    image: team4,
+    icon: linkdin,
+    link: "",
+  },
+  {
+    name: "Brian Williams",
+    position: "Social Media Specialist",
+    detail:
+      "4+ years of experience in social media marketing. Proficient in creating and scheduling content, analyzing metrics, and building engagement",
+    image: team5,
+    icon: linkdin,
+    link: "",
+  },
+  {
+    name: "Sarah Kim",
+    position: "Content Creator",
+    detail:
+      "2+ years of experience in writing and editing. Skilled in creating compelling, SEO-optimized content for various industries",
+    image: team6,
+    icon: linkdin,
+    link: "",
+  },
+];
 
 import SEOImage from "@/assets/seo.png";
 import emailMarketingImage from "@/assets/email-marketing.png";

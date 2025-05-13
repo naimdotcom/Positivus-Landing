@@ -6,6 +6,7 @@ import Service from "@/components/section/Service";
 import CTA from "./section/CTA";
 import Casestudy from "./section/Casestudy";
 import WorkProcess from "./section/WorkProcess";
+import Team from "./section/Team";
 
 function LandingPage() {
   return (
@@ -17,6 +18,7 @@ function LandingPage() {
       <CTA />
       <Casestudy />
       <WorkProcess />
+      <Team />
     </div>
   );
 }

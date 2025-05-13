@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Collapse from "@/components/Collapse"; // assuming your Collapse component is separate
 
 function CollapseGroup({ collapseData }) {
-  const [openIndex, setOpenIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState(0);
 
   const handleToggle = (index) => {
     setOpenIndex((prevIndex) => (prevIndex === index ? null : index));

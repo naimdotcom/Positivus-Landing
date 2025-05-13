@@ -7,6 +7,7 @@ import CTA from "./section/CTA";
 import Casestudy from "./section/Casestudy";
 import WorkProcess from "./section/WorkProcess";
 import Team from "./section/Team";
+import Footer from "./section/Footer";
 
 function LandingPage() {
   return (
@@ -19,6 +20,7 @@ function LandingPage() {
       <Casestudy />
       <WorkProcess />
       <Team />
+      <Footer />
     </div>
   );
 }

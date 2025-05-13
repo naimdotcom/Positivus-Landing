@@ -39,6 +39,18 @@ body {
   animation: marquee 20s linear infinite;
 }
 
+.cs_collapse {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+  /* background-color: #000; */
+}
+
+.expanded {
+  max-height: 500px; /* or use a large enough value to accommodate content */
+  min-height: 50px;
+}
+
 @keyframes marquee {
   from {
     transform: translateX(100%);

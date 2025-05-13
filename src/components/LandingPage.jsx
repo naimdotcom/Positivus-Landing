@@ -5,6 +5,7 @@ import ComapanyLogo from "./section/ComapanyLogo";
 import Service from "@/components/section/Service";
 import CTA from "./section/CTA";
 import Casestudy from "./section/Casestudy";
+import WorkProcess from "./section/WorkProcess";
 
 function LandingPage() {
   return (
@@ -15,6 +16,7 @@ function LandingPage() {
       <Service />
       <CTA />
       <Casestudy />
+      <WorkProcess />
     </div>
   );
 }

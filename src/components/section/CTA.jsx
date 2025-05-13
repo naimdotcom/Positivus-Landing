@@ -7,7 +7,7 @@ function CTA() {
     <div className="container mx-auto px-4 sm:px-6 py-12 md:py-16 lg:py-20">
       <div className="bg-tertiary py-8 px-6 sm:py-10 sm:px-8 md:px-12 lg:px-16 xl:px-32 rounded-2xl relative w-full max-w-full md:max-w-[95%] mx-auto ">
         {/* Text Content */}
-        <div className="flex flex-col gap-6 sm:gap-8 md:gap-10 w-full md:w-[55%] lg:w-[45%] xl:w-[40%] z-10 relative">
+        <div className="flex flex-col gap-6 sm:gap-8 md:gap-10 w-full  lg:w-[45%] xl:w-[40%] z-10 relative">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-h3 font-space-grotesk font-bold">
             Let's make things happen
           </h2>
@@ -21,7 +21,7 @@ function CTA() {
         </div>
 
         {/* Image - Responsive Positioning */}
-        <div className="absolute bottom-1/2 translate-y-1/2 right-[10%]">
+        <div className="hidden lg:block absolute bottom-1/2 translate-y-1/2 right-[10%]">
           <Image
             src={CTAImage}
             alt="Digital marketing illustration"

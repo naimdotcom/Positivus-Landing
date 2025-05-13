@@ -11,7 +11,7 @@ function CompanyLogo() {
             <div key={index} className="mx-10 flex-shrink-0">
               <Image
                 src={item.logo}
-                alt={item.alt}
+                alt={item.alt ? item.alt : "Company Logo"}
                 width={100}
                 height={100}
                 className="min-w-[50px] md:min-w-[100px] grayscale"

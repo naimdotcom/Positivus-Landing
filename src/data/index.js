@@ -25,6 +25,8 @@ const navbar = [
   },
 ];
 
+import team1 from "@/assets/Team/team1.png";
+
 import SEOImage from "@/assets/seo.png";
 import emailMarketingImage from "@/assets/email-marketing.png";
 import payPerClickImage from "@/assets/pay-per-click.png";
